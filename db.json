@@ -1,0 +1,81 @@
+{
+  "civilizations": [
+    {
+      "id": 2,
+      "name": "Britonzxczcs",
+      "expansion": "Age of Kings",
+      "army_type": "Foot Archer",
+      "team_bonus": "Archery Ranges work 20% faster"
+    },
+    {
+      "id": 3,
+      "name": "Byzantines",
+      "expansion": "Age of Kings",
+      "army_type": "Defensive",
+      "team_bonus": "Monks +50% heal speed"
+    },
+    {
+      "id": 4,
+      "name": "Celts",
+      "expansion": "Age of Kings",
+      "army_type": "Infantry",
+      "team_bonus": "Siege Workshops work 20% faster"
+    },
+    {
+      "id": 5,
+      "name": "Chinese",
+      "expansion": "Age of Kings",
+      "army_type": "Archer",
+      "team_bonus": "Farms provide +45 food"
+    },
+    {
+      "id": 6,
+      "name": "Franks",
+      "expansion": "Age of Kings",
+      "army_type": "Cavalry",
+      "team_bonus": "Knights have +2 line of sight"
+    },
+    {
+      "id": 7,
+      "name": "Goths",
+      "expansion": "Age of Kings",
+      "army_type": "Infantry",
+      "team_bonus": "Barracks operate 20% faster"
+    },
+    {
+      "id": 8,
+      "name": "Huns",
+      "expansion": "The Conquerors",
+      "army_type": "Cavalry",
+      "team_bonus": "Stables are 20% faster"
+    },
+    {
+      "id": 9,
+      "name": "Japanese",
+      "expansion": "Age of Kings",
+      "army_type": "Infantry",
+      "team_bonus": "Galleys have +50% line of sight"
+    },
+    {
+      "id": 10,
+      "name": "Koreans",
+      "expansion": "The Conquerors",
+      "army_type": "Tower and naval",
+      "team_bonus": "Mangonel line has +1 range"
+    },
+    {
+      "name": "Mayans",
+      "expansion": "The Conquerors",
+      "army_type": "Archer",
+      "team_bonus": "Walls are 50% cheaper",
+      "id": 11
+    },
+    {
+      "name": "Mongols",
+      "expansion": "Age of kings",
+      "army_type": "Cavalry Archer",
+      "team_bonus": "Scout line has +2 Line of sight",
+      "id": 12
+    }
+  ]
+}
