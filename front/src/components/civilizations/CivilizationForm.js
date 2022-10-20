@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { useGetCivilizationsQuery, useStoreCivilizationMutation, useShowCivilizationQuery, useUpdateCivilizationMutation } from "../../services/civilizationService";
+import { useStoreCivilizationMutation, useShowCivilizationQuery, useUpdateCivilizationMutation } from "../../services/civilizationService";
 
 const CivilizationForm = () => {
 

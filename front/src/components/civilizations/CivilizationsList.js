@@ -39,14 +39,14 @@ const CivilizationsList = () => {
                         {
                             data.map((civilization) => {
                                 return (
-                                    <tr key={civilization.id}>
+                                    <tr key={civilization._id}>
                                         <td>{civilization.name}</td>
                                         <td>{civilization.expansion}</td>
                                         <td>{civilization.army_type}</td>
                                         <td>{civilization.team_bonus}</td>
-                                        <td width="15%">
-                                            <Link className="btn btn-primary me-2 ms-2" to={`/update-civilization/${civilization.id}`}>Update</Link>
-                                            <button className="btn btn-danger me-2 ms-2" onClick={() => HandleDelete(civilization.id)}>Delete</button>
+                                        <td className="text-center" width="12%">
+                                            <Link className="btn btn-primary me-2 ms-2" to={`/update-civilization/${civilization._id}`}><i class="fa-solid fa-pencil"></i></Link>
+                                            <button className="btn btn-danger me-2 ms-2" onClick={() => HandleDelete(civilization._id)}><i class="fa-solid fa-trash"></i></button>
                                         </td>
                                     </tr>
                                 )

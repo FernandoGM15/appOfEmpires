@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 export const civilizationApi = createApi({
     reducerPath: "civilizationApi",
 
-    baseQuery: fetchBaseQuery({ baseUrl: "http://localhost:3001/" }),
+    baseQuery: fetchBaseQuery({ baseUrl: "http://localhost:8080/api/" }),
 
     tagTypes:["Civilization"],
 
@@ -30,7 +30,7 @@ export const civilizationApi = createApi({
 
         updateCivilization: builder.mutation({
             query: (civilization) => ({
-                url: `civilizations/${civilization.id}`,
+                url: `civilizations/${civilization._id}`,
                 method: "PUT",
                 body: civilization
             }),
