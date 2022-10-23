@@ -5,6 +5,7 @@ import cors from "cors";
 import path from "path";
 import dotenv from "dotenv";
 import CivilizationRoutes from "./Routes/CivilizationRoutes";
+import UserRoutes from "./Routes/UserRoutes";
 
 class Server {
     app: Application = express();
@@ -18,6 +19,7 @@ class Server {
 
     routes(): void {
         this.app.use("/api/civilizations", CivilizationRoutes.router);
+        this.app.use("/api/users",UserRoutes.router)
     }
 
     config(): void {
