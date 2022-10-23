@@ -15,6 +15,5 @@ export const TokenValidation = (req: Request, res: Response, next: NextFunction)
 
     const payload = jwt.verify(token, process.env.JWT_SECRET || "admin123") as IPayload;
     req.userId = payload._id;
-    console.log(payload);
     next();
 }
